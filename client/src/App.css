@@ -3,7 +3,7 @@
   background: rgba(236, 232, 232, 0.103);
   width: 100%;
   border: 2px solid #e9ecee;
-  border-radius: 20px;
+  border-radius: 40px;
   /* margin-left: 30px; */
 }
 
@@ -11,5 +11,7 @@
   height: 80vh;
   object-fit: cover;
   object-position: center;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 40px;
+  /* padding-right: 60px; */
+  /* margin-right: 100px; */
 }

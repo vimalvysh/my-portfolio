@@ -31,7 +31,7 @@ const Example = props => {
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink href="//">Home</NavLink>
+              <NavLink href="/">Home</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

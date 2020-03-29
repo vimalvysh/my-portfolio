@@ -11,12 +11,12 @@ export default function Home() {
   });
   return (
     <animated.div style={props}>
-      <Container className="mt-4">
+      <Container className="">
         <Row>
-          <Col xs="8" className="info ">
+          <Col sm="8" xs="12" className="info mt-2  ">
             <h3 className="text-right">Meticulous Mind for SUCCESS</h3>
             <Row>
-              <Col xs="8">
+              <Col sm="8" xs="10">
                 <p>
                   Young energytic champ form God's Own Country.Proffesionaly
                   I'am an Engineer and by action I'm a Software Developer.
@@ -24,9 +24,9 @@ export default function Home() {
               </Col>
             </Row>
           </Col>
-          <Col xs="4" className="">
+          <Col sm="4" xs="12" className="mt-2  ">
             <img
-              className="img"
+              className="img "
               src={require("../img/vimal-home.jpg")}
               alt="No home for vimal"
             />
