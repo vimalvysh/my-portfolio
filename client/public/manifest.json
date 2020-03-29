@@ -1,6 +1,6 @@
 {
   "short_name": "Vimal Malayil",
-  "name": "Vimal Malayil",
+  "name": "Vimal-Malayil",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "clrBooks.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "books.png",
       "type": "image/png",
       "sizes": "512x512"
     }
