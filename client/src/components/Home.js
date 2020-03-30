@@ -19,7 +19,7 @@ export default function Home() {
               <Col sm="8" xs="12">
                 <p className="portfolio-description">
                   Young energetic freak from God's Own Country. Professionally
-                  I'm an Engineer and by action I'm a Software Developer.
+                  an Engineer and by action Software Developer.
                 </p>
                 <p
                   className="portfolio-description"
