@@ -18,8 +18,8 @@ export default function Home() {
             <Row>
               <Col sm="8" xs="12">
                 <p className="portfolio-description">
-                  Young energytic freak from God's Own Country.Proffesionaly
-                  I'am an Engineer and by action I'm a Software Developer.
+                  Young energetic freak from God's Own Country. Professionally
+                  I'm an Engineer and by action I'm a Software Developer.
                 </p>
                 <p
                   className="portfolio-description"
