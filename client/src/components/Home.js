@@ -13,21 +13,27 @@ export default function Home() {
     <animated.div style={props}>
       <Container className="">
         <Row>
-          <Col sm="8" xs="12" className="info mt-2  ">
-            <h3 className="text-right">Meticulous Mind for SUCCESS</h3>
+          <Col sm="8" xs="7" className="info mt-2  ">
+            <h2 className="text-right">Meticulous Mind for SUCCESS</h2>
             <Row>
-              <Col sm="8" xs="10">
-                <p>
+              <Col sm="8" xs="12">
+                <p className="portfolio-description">
                   Young energytic champ from God's Own Country.Proffesionaly
                   I'am an Engineer and by action I'm a Software Developer.
+                </p>
+                <p
+                  className="portfolio-description"
+                  style={{ color: "tomato" }}
+                >
+                  NOTE: Portfolio Under Construction
                 </p>
               </Col>
             </Row>
           </Col>
-          <Col sm="4" xs="12" className="mt-2  ">
+          <Col sm="4" xs="5" className="mt-2  ">
             <img
               className="img "
-              src={require("../img/vimal-home.jpg")}
+              src={require("../img/vimal-home.png")}
               alt="No home for vimal"
             />
           </Col>
