@@ -1,8 +1,12 @@
 const express = require("express");
 const path = require("path");
+const contact = require("./routes/contact");
 
 const app = express();
 app.use(express.json());
+
+// Routing
+app.use("/contact", contact);
 
 // server static asset if we'er in production.
 if (process.env.NODE_ENV === "production") {
